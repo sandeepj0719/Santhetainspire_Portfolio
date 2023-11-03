@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Jagadeesh - Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 60px;
+            background-color: white;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 20px;
+                    }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight:500;
+        }
+        nav ul li a:hover{
+            color: black;
+            font-size: 1.01rem;
+        }
+        .logoname {
+            display: flex;
+            margin-left: 15px;
+        }
+        .left {
+            font-size: 1.5rem;
+            margin-top: 18px;
+            font-weight: bolder;
+        }
+        .prompt {
+            color: white;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .firstSection >  div{
+            width: 30%;
+        }
+        .leftSection {
+            font-size: 2rem;
+
+        }
+        .rightSection img {
+            border-radius: 50%;
+            margin-top:75px;
+            margin-left: 75px;
+            align-items: center;
+            height: 400px;
+            width: 400px;
+
+        }
+        .name-color {
+            color: white;
+            font-weight: bold;
+        }
+        #element{
+            color: white;
+            font-weight: bold;
+        }
+        .secondSection {
+            margin-top: -30px;
+            margin-left: -40px;
+            padding-top: 60px;  ;
+            height: 100vh;
+        }
+        span.text-gray{
+            color:gray;
+            font-size: medium;
+            margin-left: 175px;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+            margin-left: 175px;
+        }
+
+        .secondSection .box-horizontal {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin-top: 50px;
+            margin-bottom: 0%;
+            margin-left: 170px;
+            display: flex;
+        }
+
+        .secondSection .box-horizontal .vertical{
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        footer {
+            margin: 0px;
+            padding: 0px;
+            background-color: gray;
+            height: 120px;
+        }
+
+        .footer {
+            display: flex;
+            margin-left: -95px;
+            padding: 23px 122px;
+        }
+
+        .footer ul{
+            list-style: none;
+            font-size: smaller;
+        }
+
+        .footer > div {
+            width: 225px;
+        }
+
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+        }
+
+        .leftSection .btn {
+            font-size: 15px;
+            border-radius: 50px;
+            padding: 5px;
+            background: white;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+       .buttons .btn {
+        font-size: large;
+        background-color: whitesmoke;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "logoname">
+            <div class = "logo"><img src = "images/logo.png" alt = "logo icon" height = 65px width = 85px></div>
+            <div class="left">SANTHETAINSPIRE</div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href = "">Home</a></li>
+                    <li><a href = "">About</a></li>
+                    <li><a href = "">Projects</a></li>
+                    <li><a href = "">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class = "firstSection">
+            <div class="leftSection">
+                <span class = "prompt">Hey there, I'm </span><span class = "name-color">Sandyman</span>
+                <div class="about"><span class = "prompt">An Aspiring</span></div>
+                <span id="element"></span>
+                <div class = "buttons">
+                    <a href = "cv/Sandeep Jagadeesh IBM Resume.pdf" id = cv><button class = "btn">My Resume</button></a>
+                    <a href = "https://github.com/sandeepj0719 id = "rep"><button class="btn">Visit GitHub</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src = "images/basic.png" alt = "Basic Logo">
+            </div>
+        </section>
+
+        <section class = "secondSection">
+            <span class = "text-gray">What I have done so far</span>
+            <h1><span class = "prompt">Project Experience</span></h1>
+            <div class="box-horizontal">
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class = "footer-first">
+                <h5>Explore Sandeep's Portfolio</h5>
+            </div>
+            <div class = "footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+            <div class = "footer-rights">
+                contact@sandeepjagadeeshdesigner.com | All rights reserved
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Android Developer', '&amp; UX Designer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
